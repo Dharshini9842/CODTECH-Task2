@@ -40,7 +40,7 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 - 
 - 
 
-### FUTURE ENHANCEMENTS:
+## FUTURE ENHANCEMENTS:
 - Add task editing functionality.
 - Store tasks in local storage to persit data across sessions.
 - Add task due dates and priority levels.
