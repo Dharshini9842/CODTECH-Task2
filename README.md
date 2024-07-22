@@ -35,7 +35,7 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 2. Enter a  Cityname in the input field.
 3. Click the `Get Weather` button to get the weather.
 
-## PROJECT DESCRIPTION:
+## PROJECT DESCRIPTION
 -A weather forecast app containes a input field for the user
 - 
 - 
