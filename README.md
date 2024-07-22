@@ -1,5 +1,5 @@
-# CODTECH-Task2
-## CODTECH TASK1
+## CODTECH-Task2
+
 
 **Name**    : DHARSHINI . R
 
@@ -13,30 +13,30 @@
 
 **Mentor**  :  
 
-### OVERVIEW OF THE PROJECT
+## OVERVIEW OF THE PROJECT
 
 ### PROJECT : WEATHER FORECAST WEB APP USING HTML,CSS,JAVASCRIPT
 
-### OBJECTIVE
+## OBJECTIVE
 The Objective of this project is to craft a simple WEATHER FORECAST  web application using HTML,CSS,and Javascript.
 
-### PREREQUISITES:
+## PREREQUISITES:
 - HTML
 - CSS
 - JAVASCRIPT
  
-### FILE DESCRIPTION:
+## FILE DESCRIPTION:
 1. `index.html`: The main HTML file that structures the web page.
 2. `style.css` :  The CSS file that styles the web page.
 3. `script.js` :  The Javascript file that adds functionality to the web page
 
-### HOW TO USE:
+## HOW TO USE:
 1.  Open `index.html`in a web browser.
 2. Enter a  Cityname in the input field.
 3. Click the `Get Weather` button to get the weather.
 
-### PROJECT DESCRIPTION:
--A weather forecast app containes a input
+## PROJECT DESCRIPTION:
+-A weather forecast app containes a input field for the user
 - 
 - 
 
