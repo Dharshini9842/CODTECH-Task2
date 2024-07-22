@@ -1,0 +1,77 @@
+/*Here is the Simple HTML Code for Weather Forecasting WebApplication*/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <title>Weather forecast</title>
+    
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <div style="color: white;text-align: center;font-weight: 500;margin-top: 10px;">WEATHER  FORECAST &#9925;</div>
+            <div style="text-align: center;margin-top: 10px;">
+                <input style="border-radius: 15x;" type="text" id="city-input" placeholder="Enter city name">
+
+                <button style=" background: rgba(0, 0, 0, 0.5);color: white;padding: 5px;border-radius: 10px;"
+                    id="city-input-btn" onclick="weatherFn($('#city-input').val())">Get Weather</button>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="weathercard">
+
+
+                <div id="weather-info" class="animate_animated animate_fadeIn">
+                    <h3 style="font-size: 32px;" id="city-name"></h3>
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <p id="temperature" style="font-size: 40px;font-weight: bold;"></p>
+                    <p id="description"></p>
+                    <div class="weather-details">
+                        <div class="detail-item">
+                            <i class="fas fa-tint"></i> <span id="humidity"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-wind"></i> <span id="wind-speed"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-cloud-showers-heavy"></i> <span id="rain"></span>
+                        </div>
+                    </div>
+                    <p id="date"></p>
+                </div>
+            </div>
+            <div class="forecastcard">
+                <div class="forecast-header">
+                    <h4>5-Day Forecast</h4>
+                </div>
+                <div class="forecast-details" id="forecast-details">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="weather-details-bottom">
+        <div class="detail-item">
+            <i class="fas fa-city"></i> <span id="city-name-bottom"></span>
+        </div>
+        <div class="detail-item">
+            <i class="fas fa-thermometer-half"></i> <span id="temperature-bottom"></span>
+        </div>
+        <div class="detail-item">
+            <img id="weather-icon-bottom" src="" alt="Weather Icon">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
