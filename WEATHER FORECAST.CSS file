@@ -1,0 +1,107 @@
+/* Here is the CSS Code for Styling the WEATHER FORECAST Web application*/
+
+ body {
+            margin: 0;
+            background: url('https://images.pexels.com/photos/259698/pexels-photo-259698.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .container {
+            display: flex;
+            gap: 70px;
+            padding: 20px;
+            backdrop-filter: blur(3px);
+
+
+        }
+
+        .content {
+            display: block;
+            backdrop-filter: blur(3px);
+        }
+
+        .weathercard,
+        .forecastcard {
+          
+            border-radius: 20px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+
+            width: 300px;
+            color: white;
+
+        }
+
+        .weathercard {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .forecastcard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .weathercard h1 {
+            color: rgb(130, 1, 236);
+        }
+
+        .weathercard input[type="text"] {
+            width: 150px;
+
+
+        }
+
+        .weathercard button {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        .forecastcard .forecast-header,
+        .forecastcard .forecast-details {
+            margin-top: 20px;
+        }
+
+        .forecastcard .forecast-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .forecastcard .forecast-item:last-child {
+            border-bottom: none;
+        }
+
+        .forecastcard .forecast-item img {
+            width: 40px;
+            height: 40px;
+        }
+
+
+        .weather-details-bottom {
+            position: absolute;
+            bottom: 20px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+            color: white;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    
+
