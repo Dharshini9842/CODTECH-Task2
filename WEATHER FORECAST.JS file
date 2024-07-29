@@ -1,4 +1,7 @@
- const url = 'https://api.openweathermap.org/data/2.5/weather';
+/* Here is the javascrit Code for  the WEATHER FORECAST Web application*/
+
+
+const url = 'https://api.openweathermap.org/data/2.5/weather';
         const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast';
         const apiKey = 'f00c38e0279b7bc85480c3fe775d518c';
 
