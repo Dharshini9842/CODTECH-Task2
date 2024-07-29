@@ -48,7 +48,7 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 - Then by using the async function, we are returning the wwather of the city which is entered by the user. If the city is not valid, then an error message is been shown to the user.
 - Once the details are fetched, then these details are been represented in the weatherShowFn().
 
-  ## Here is the output of siimple Weather Forecast Application:
+  ## Here is the output of siimple Weather Forecast web Application:
 
   ![weather forecast](https://github.com/user-attachments/assets/e8d32af4-cb12-45c8-8bfc-d521f3798a52)
 
