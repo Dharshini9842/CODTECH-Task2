@@ -47,3 +47,8 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 - Firstly, we are specifying the API URL of OpenWeatherMap. Then we are specifying the unique API key. By defaul,t the Weather of the Pune location is been shown when the application is loaded.
 - Then by using the async function, we are returning the wwather of the city which is entered by the user. If the city is not valid, then an error message is been shown to the user.
 - Once the details are fetched, then these details are been represented in the weatherShowFn().
+
+  ## HERE IS THE OUTPUT FOR WEATHER FORCAST WEB APPLICATION:
+
+  ![weather forecast](https://github.com/user-attachments/assets/e8d32af4-cb12-45c8-8bfc-d521f3798a52)
+
