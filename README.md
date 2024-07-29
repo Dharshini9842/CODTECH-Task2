@@ -11,7 +11,7 @@
 
 **Duration**: "July to August 2024"
 
-**Mentor**  :  
+**Mentor**  :  Muzammil Ahmed 
 
 ## OVERVIEW OF THE PROJECT
 
@@ -41,7 +41,7 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 - The response is been retrieved in the application which consists of Weather, Wind speed, Humidity, Rain ,Weekly forecast, description etc.
 
 ## APPROACH:
-- Create the Weather App UI Structure using the HTML elements like <div>, <h1>, <input> and <button>. Embed all the essential CDN links for Icons, Fonts, etc.
+- Create the Weather App UI Structure using the HTML elements `like <div>, <h1>, <input>` and `<button>`. Embed all the essential CDN links for Icons, Fonts, etc.
 - Once the structure is created, the styling properties for each element like padding, box-shadow, transition, attractive effects like hovering, etc are been applied.
 - In the main JavaScript file, the overall behavior of the application is been defined.
 - Firstly, we are specifying the API URL of OpenWeatherMap. Then we are specifying the unique API key. By defaul,t the Weather of the Pune location is been shown when the application is loaded.
